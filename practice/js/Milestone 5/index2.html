@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="kaka">
+        <h1>dom</h1>
+        <h1>tom</h1>
+        <h1>don</h1>
+    </div>
+
+
+    <script>
+        const adder = document.getElementById('kaka');
+        const h3 = document.createElement("h3");
+        h3.innertext = "my";
+        console.log(h3.innertext)
+        adder.appendChild(h3);
+    </script>
+</body>
+
+</html>

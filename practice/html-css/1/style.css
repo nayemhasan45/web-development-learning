@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+h1{
+    font-size: 50px;
+}
+h3{
+    font-size: 20px;
+}
+.head{
+    height: 530px;
+    display: flex;
+    margin: 20px 80px;
+}
+.H-text{
+    padding: 50px 0px;
+    margin: 40px 0px 40px 85px;
+    width: 47%;
+}
+.color-text{
+   
+}
+.H-text h1{
+    padding-bottom: 40px;
+}
+.H-text h3{
+    padding-bottom: 55px;
+    width: 80%;
+}
+.H-img img{
+    height: 100%;
+    margin-left: 400px;
+} 
+.A-buttons{
+    padding: 10px 15px;
+    outline: none;
+    border-radius: 10px;
+    border: 0px solid;
+    background-color: tomato;
+    font-weight: 700;
+    font-size: 13px;
+}
+.about-me{
+    background-image: url(images/body.png);
+    background-size: 1904px 500px;
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 70px 0px;
+}
+.about-me .H-text{
+    width: 25%;
+    margin-left: 690px;
+}
+.recipi{
+    width: 90%;
+    height: 900px;
+    background-color: yellowgreen;
+    margin-left: 125px;
+}
+.recipi-text{
+    text-align: center;
+}
+.recipi-text h3{
+    width: 35%;
+    margin: 30px auto;
+    background: cadetblue;
+}
+.recipi-part{
+
+}
+.recipi-part .left-img{
+
+}
+.recipi-part .right-img{
+
+}

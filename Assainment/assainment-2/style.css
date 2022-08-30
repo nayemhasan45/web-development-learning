@@ -1,0 +1,250 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    width: 1270px;
+    margin: auto;
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    font-weight: 700;
+}
+h4{
+    font-weight: 400;
+    font-size: 9px;
+}
+/* -------------------- 
+    banner part
+------------------------- */
+.banner{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    background-color: #161616;
+    border-radius: 10px;
+    padding: 30px 50px 0 50px;
+    color: white;
+    align-items: center;
+    overflow: hidden;
+}
+.banner-text{
+    padding-right: 30px;
+}
+.banner-img{
+    flex-grow: 1;
+}
+.banner-img img{
+    width: 50%;
+}
+.all-button{
+    padding: 4px;
+    background-color: tomato;
+    color: wheat;
+    font-weight: 500;
+    border-radius: 5px;
+    border: 0;
+    margin-top: 20px;
+}
+
+
+/* -------------------------------      
+        banner part end
+---------------------------------- */
+
+/*-------------------------
+         content part start
+--------------------------- */
+
+.content{
+    display: flex;
+    margin-top: 20px;
+}
+.content-button{
+    width: 20%;
+    margin-left: 30px;
+    display: flex;
+    background-color: #161616;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 5px;
+    height: 200px;
+}
+.nav-box-1 button{
+    width: 120px;
+    font-weight:500;
+    padding: 9px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 5px;
+}
+.nav-box-2 button{
+    width: 120px;
+    font-weight:500;
+    padding: 9px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 5px;
+}
+.nav-box-3 button{
+    width: 120px;
+    font-weight:500;
+    padding: 9px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 5px;
+}
+#red-btn{
+    background-color: red;
+    color: white;
+}
+/*----------------------------------
+content items
+ ---------------------------------- */
+.content-items{
+    flex-grow: 1;
+    margin-left: 30px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 15px;
+    grid-row-gap: 20px;
+}
+.content-items .box-1{
+    width: 240px;
+    box-shadow: 1px 2px 3px -1px black;
+    border-radius: 6px;
+}
+.box-1 .item-detail{
+    padding: 15px;
+}
+.box-1 .item-detail button{
+    padding: 5px 15px;
+}
+.box-1 .item-detail h3{
+    font-weight: 600;
+    font-size: 12px;
+    padding: 5px 5px 5px 0;
+}
+.item-img img{
+    width: 100%;
+    
+}
+.item-footer{
+    display: flex;
+
+}
+.item-footer .item-time{
+    font-size: 13px;
+    margin-right: 29px;
+}
+.item-footer .item-text{
+    font-size: 13px;
+}
+/* ------------------------------
+content item end 
+------------------------------- */
+.content-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content-btn button{
+    padding: 2vh 5vh;
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 1vh;
+    font-weight: 700;
+    display:none;
+}
+
+/*----------------------------------
+footer part start
+ --------------------------------- */
+footer{
+    background-color: #161616;
+    height: 220px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+.main-footer{
+    width: 970px;
+    margin: auto;
+    height: 100%;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+.footer-text{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    padding: 0 0 20px 0;
+}
+.main-footer hr{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+.footer-link{
+    padding: 20px 0;
+}
+.footer-link a{
+    text-decoration: none;
+    color: white;
+    padding-right: 15px;
+}
+/* -----------------------footer part end---------------------------- */
+
+/* medium device */
+
+@media screen and (min-width:577px) and (max-width:992px){
+    .banner{
+       width: 80%;
+    }
+    .content{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .content-button{
+        display: flex;
+        background-color: white;
+        flex-direction: row;
+        align-items: center;
+        margin-left: 300px;
+    }
+    .content-btn button{
+        display:block;
+    }
+    .content-items{
+        display:grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    footer{
+        width: 100%;
+    }
+}
+/* --------------------------------------------small device------------------------------------------ */
+@media screen and (max-width:576px) {
+    .banner{
+        display: flex;
+        flex-direction: column;
+        width: 42%;
+    }
+    .content{
+        display: flex;
+        flex-direction: column;
+    }
+    .content-items{
+        display:grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .content-button{
+        background-color: white;
+    }
+    .footer-link a{
+        display: block;
+    }
+}

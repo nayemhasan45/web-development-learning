@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bap er bank 2</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head> 
+<body>
+    <main>
+
+        <!-- display section  -->
+         <section class="w-9/12 mx-auto bg-amber-200">
+            <h1 class="text-5xl py-10 pl-10 text-center text-blue-700">Let's get some <span class="text-blue-800 font-semibold">Mooooooooooney !!!</span></h1>
+            <section class="grid grid-cols-3 gap-3 w-9/12 mx-auto">
+
+                <!-- Deposit div of display section  -->
+                <div class="bg-green-300 rounded-md p-8 text-white">
+                    <h1 class="text-4xl font-semibold">Deposit</h1>
+                    <h1 class="text-3xl mt-3">$<span id="display-firstSpan">00</span></h1>
+                </div>
+
+                <!-- Withdraw div of display section  -->
+                <div class="bg-fuchsia-400 rounded-md p-8 text-white">
+                    <h1 class="text-4xl font-semibold">Withdraw</h1>
+                    <h1 class="text-3xl mt-3">$<span id="withdraw-span">00</span></h1>
+                </div>
+
+                <!-- Balance div of display section  -->
+                <div class="bg-rose-400	rounded-md p-8 text-white">
+                    <h1 class="text-4xl font-semibold">Balance</h1>
+                    <h1 class="text-3xl mt-3">$<span id="total-Balance">00</span></h1>
+                </div>
+            </section>
+
+            <!-- deposit and Withdraw section -->
+            <section class="grid grid-cols-2 gap-8 w-9/12 mx-auto mt-10">
+
+                <!-- firs Deposit div  -->
+                <div class="bg-blue-400	rounded-md m-5 p-5">
+                    <h1 class="p-5 text-4xl text-white">Please Deposit</h1>
+                    <div class="pl-10">
+                        <input  class="block w-9/12 px-8 py-1 rounded-md" placeholder="Enter the deposit amount" type="text" name="" id="getAmount">
+                        <button id="deposit-btn" class="bg-blue-600 mt-5 p-3 px-10 mt-4 rounded-md text-white font-bold">Deposit</button>
+                    </div>
+                </div>
+
+                <!-- second Withdraw div  -->
+
+                <div class="bg-violet-500	rounded-md m-5 p-5">
+                    <h1 class="p-5 text-4xl text-white">Please Withdraw</h1>
+                    <div class="pl-10">
+                        <input class="block w-9/12 px-8 py-1 rounded-md" placeholder="Enter the Withdraw amount" type="text" name="" id="withdraw-feild">
+                        <button id="withdraw-btn" class="bg-violet-800	 mt-5 p-3 px-8 mt-4 rounded-md text-white font-bold">Withdraw</button>
+                    </div>
+                </div>
+
+
+            </section>
+        </section>
+    </main>
+
+
+    <script src="js/logic.js"></script>
+    <script>
+           
+
+    </script>
+</body>
+</html>

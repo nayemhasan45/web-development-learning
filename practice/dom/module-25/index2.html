@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dom practice</title>
+</head>
+<body>
+    <main id="mainContainer" class="mainContainerC">
+        <section id="firstSection">
+            <h1>this is first text of the site</h1>
+        </section>
+        <section>
+            <ul id="list-item">
+                <li>nayem</li>
+                <li>utsho</li>
+                <li>noman</li>
+            </ul>
+        </section>
+        <section>
+            <button title="this is js tooltip" onclick="console.log(5)">click me</button><br>
+            <button onfocus="console.log(53)">click me 2</button>
+            <button onclick="document.body.style.backgroundColor='red'">click me red</button>
+            <button id="blue">BLUE</button>
+            <button id="purple">PURPLE</button>
+            <button onclick="makered()">silver</button>
+        </section>
+    </main>
+  <script src="js/index2.js"></script>
+  <script>
+    const blueB = document.getElementById('blue');
+    blueB.onclick = kaka;
+    const prupleB = document.getElementById('purple');
+    prupleB.onclick = function mama(){
+        document.body.style.backgroundColor = 'purple';
+    }
+    function kaka(){
+        document.body.style.backgroundColor = 'blue';
+    }
+    function makered(){
+        document.body.style.backgroundColor = 'silver'
+    }
+    addEventListener
+  </script>
+</body>
+</html>

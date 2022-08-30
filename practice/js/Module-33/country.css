@@ -1,0 +1,17 @@
+h1 {
+    text-align: center;
+    font-size: 3rem;
+    color: purple;
+    font-weight: 800;
+}
+
+#countryHome {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+}
+
+.countryClass {
+    padding: 10px;
+    border: 1px solid saddlebrown;
+}

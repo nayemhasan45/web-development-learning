@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>animation</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .box{
+            background-color: lightcoral;
+            height: 200px;
+            width: 200px;
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            transition: height 1s linear, width 1s linear,transform 1s;
+        }
+        .box:hover{
+            height: 300px;
+            width: 300px;
+            /* transform: rotate(180deg); */
+            transform: rotate3d(1,1,1,45deg);
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <h2>animation</h2>
+    </div>
+</body>
+</html>

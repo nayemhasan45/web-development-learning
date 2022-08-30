@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @keyframes sliding {
+            0%{
+                transform: translate(0);
+            }
+            100%{
+                transform: translate(100px , 40px);
+            }
+        }
+        .field{
+            width: 1280px;
+            height: 600px;
+            /* background-color: lightblue; */
+        }
+        .car{
+            width: 25%;
+            z-index: 1;
+            position: relative;
+            animation: sliding 2s
+            step-end 0 infinite alternate fill-mode;
+        }
+        .road{
+            width: 67%;
+            position: relative;
+            left: -300px;
+            top: 90px;
+        }
+    </style>
+</head>
+<body>
+    <div class="field">
+        <img class="car" src="imeages/vintage-car-png.webp" alt="">
+        <img class="road" src="imeages/images.jfif" alt="">
+    </div>
+</body>
+</html>

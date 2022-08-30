@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Money Moster</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@2.24.0/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <header class="text-6xl w-9/12 mx-auto text-center mt-10">
+        <h1>Money Master</h1>
+    </header>
+    <main>
+        <section class="grid grid-cols-2 gap-5 w-9/12 	mx-auto text-center mt-10 mb-10">
+            <div>
+                <img style="height: 800px;" src="img/dollar.jpg" alt="">
+            </div>
+            <div>
+                <section style="height: 800px;" class=" p-9 shadow-2xl bg-slate-300	 rounded-lg">
+
+                    <!-- total Income -->
+                    <div class="mb-10">
+                        <h1 class="text-4xl">Income</h1>
+                        <span class="mr-5 text-2xl">Income</span>
+                        <input class="w-2/5 p-1 rounded-md" type="text" name="" id="total-income">
+                    </div>
+
+                    <!-- Expences part -->
+                    <div>
+                        <h1 class="text-4xl mb-1">Expences</h1>
+                        <span class="mr-10 text-2xl">Food</span>
+                        <input id="food-expence" class="mb-2 w-2/5 p-1 rounded-md" type="text"><br>
+                        <span class="mr-12 text-2xl">Rent</span>
+                        <input class="mb-2 w-2/5 p-1 rounded-md" type="text" name="" id="rent-expence"> <br>
+                        <span class="mr-5   text-2xl">Clothes</span>
+                        <input class="mb-2 w-2/5 p-1 rounded-md" type="text" name="" id="clothes-expence"><br>
+                        <button id="total-calculate"
+                            class="bg-blue-400 p-3 px-5 rounded-lg text-white mt-5 mb-10">Calculate</button>
+                    </div>
+
+                    <!-- total Expences part  -->
+                    <div>
+                        <h1 class="text-3xl mt-9 mb-1">Total Expences : <span id="total-expences">00</span></h1>
+                        <h1 class="text-3xl mt-1 mb-1">Balance : <span id="remaning-balance">00</span></h1>
+                        <span class="mr-5 text-2xl">Save</span>
+                        <input class="mb-1 w-1/5 p-1 rounded-md" type="text" name="" id="saving-percent"><span
+                            class="text-3xl ml-5">%</span>
+                        <button id="saving-btn"
+                            class="bg-blue-400 py-2 px-10 rounded-lg text-white mt-5 mb-10 ml-5">Save</button>
+                        <h1 class="text-2xl mt-1">Saving Amount : <span id="saving-ammount">00</span></h1>
+                        <h1 class="text-2xl">Remaning Balance : <span id="save-balance">00</span></h1>
+                    </div>
+                </section>
+            </div>
+        </section>
+    </main>
+
+
+
+    <!-- script add -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>

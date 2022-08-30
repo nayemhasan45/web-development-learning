@@ -1,0 +1,241 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: font-family: 'Mingzat', sans-serif;
+}
+h1{
+    font-size: 50px;
+}
+.header-part{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0,0,0,0.2)),url(images/cover.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height:50vh;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    text-align: center;
+}
+.header-part .header-content{
+    color: white;
+}
+#all-buttons{
+    color: white;
+    text-decoration: none;
+    background-color: orangered;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: 400;
+    font-size: 18px;
+    display:inline-block;
+    background: linear-gradient(rgb(164, 7, 255),rgba(10, 10, 10, 0.217));
+    border: 0px solid black;
+}
+.header-part .header-content h3{
+    margin: 30px 0px;
+    font-weight: 200;
+}
+.donation-part{
+    margin:50px 0%;
+    height: 50vh;
+    width: 100%;
+
+}
+.donation-head{
+    display:grid;
+    justify-content: center;
+    align-items: center;
+}
+#last-padding{
+    padding-top: 10px;
+}
+.amount-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.box1{
+    height: 100px;
+    width: 120px;
+    background-color: rgba(0,0,0,0.1);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+.box2{
+    height: 100px;
+    width: 120px;
+    background-color: rgba(0,0,0,0.1);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+.box3{
+    height: 100px;
+    width: 120px;
+    background-color: rgba(0,0,0,0.1);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+.box4{
+    height: 100px;
+    width: 120px;
+    background-color: rgba(0,0,0,0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+.box5{
+    height: 100px;
+    width: 120px;
+    background-color: #66339996;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    border: 2px solid #66339996;
+}
+.donation-footer {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+}
+.price-tag{
+    border: none;
+    border-bottom: 2px solid black;
+    margin-bottom: 10px;
+}
+.donate-plan{
+    width: 100%;
+    height: 60vh;
+    margin: 10px 0px;
+
+}
+.donate-head{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+}
+.our-plan{
+    display: flex;
+    justify-content: center;
+    height: 70%;
+}
+.food{
+    width: 400px;
+    background-color:#edf5f6;
+    margin-right: 10px;
+    padding: 20px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+}
+.food img{
+    padding-bottom: 40px;
+}
+.food h2{
+    padding-bottom: 40px;
+}
+.family{
+    width: 400px;
+    background-color:rgb(255,238,238);
+    margin-right: 10px;
+    padding: 20px;
+    border-radius: 10px;
+}
+.family h2{
+    padding-bottom: 40px;
+}
+.family img{
+    padding-bottom: 40px;
+}
+.Education{
+    width: 400px;
+    background-color:rgb(255,244,214);
+    margin-right: 10px;
+    padding: 20px;
+    border-radius: 10px;
+}
+.Education img{    padding-bottom: 40px;
+}
+.Education h2{    padding-bottom: 40px;
+}
+.need-help{
+    display: flex;
+    margin-top: 90px;
+    justify-content: center;
+    width: 100%;
+}
+.help-text{
+    width: 40%;
+    margin-right: 5%;
+}
+.help-text p{
+    padding-top: 20px;
+}
+.sec-pera{
+    padding-bottom: 80px;
+}
+.help-img img{
+    border-radius: 5px;
+}
+.about-myself{
+    width: 100%;
+    height: 50vh;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.about-myself h1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 10px;
+}
+.about-myself h3{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 100px;
+}
+.about-myself .submit-part{
+    background-color: #fff4d6;
+    width: 40%;
+    height: 20vh;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-left: 555px;
+}
+#email-sec{
+    padding: 13px 15px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+
+footer{
+    background-color: #0b0d17;
+    height: 10vh;
+    text-align: center;
+    justify-content: center;
+    color: white;
+}
+.colorful-humbel{
+    padding-top: 10px;
+    display: block;
+    color: tomato;
+    font-family: 'Lobster', cursive;
+}

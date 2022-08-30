@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    border: none;
+    box-sizing: border-box;
+}
+h1{
+    font-size: 3rem;
+}
+h4{
+    font-size: 1.3rem;
+}
+.container{
+    width: 1620px;
+    margin: 10px auto;
+    overflow: hidden;
+}
+.banner{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-bottom: 3rem;
+    background-color: blueviolet;
+    border-radius: 0.8rem;
+
+}
+.banner .banner-text{
+    padding: 4rem;
+}
+.banner .banner-text h4{
+    padding: 1rem 0;
+}
+.banner .banner-img{
+    width: 100%;
+    margin: auto;
+    margin-left: 5rem;
+}
+.all-button{
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    color: white;
+    background-color: rebeccapurple;
+}
+/* -------========================CONTENT--------------=================== */
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.content .content-button{
+    background-color: black;
+    height: 250px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    border-radius: 5px;
+    margin-right: 3rem;
+}
+.nav-box-1 button{
+    width: 170px;
+}
+.nav-box-2 button{
+    width: 170px;
+}
+.nav-box-3 button{
+    width: 170px;
+}
+.content .content-items{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 2rem;
+}
+
+
+.content-items .box-1 img{
+    width: 100%;
+}
+.content-items .box-1{
+    display: flex;
+    flex-direction: column;
+}
+.item-detail{
+    padding: 1rem;
+}
+.item-detail h3{
+    padding: 1rem 0;
+}
+.item-detail .item-footer{
+    display: flex;
+}
+.item-detail .item-footer .item-time{
+    padding-right: 2rem;
+}
+
+
+
+
+footer{
+    background-color: #161616;
+    height: 12rem;
+    display: flex;
+    justify-content: center;
+}
+.main-footer{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+.main-footer hr{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+.footer-link{
+    margin-top: 2rem;
+}
+@media screen and (min-width:577px) and (max-width:1240px){
+    .content{
+        display: flex;
+        flex-direction: column;
+        margin:0 auto;
+        align-items: center;
+    }
+    .content .content-button{
+        display: flex;
+        background-color: white;
+        flex-direction: row;
+    }
+    .content .content-items{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
