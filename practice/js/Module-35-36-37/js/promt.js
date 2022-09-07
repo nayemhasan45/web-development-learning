@@ -10,5 +10,15 @@ const modalBtn = () => {
 }
 
 const promtBtn = () => {
-    prompt('what is your name');
+    const kaka = prompt('what is your name');
+    console.log(kaka);
+    const getDiv = document.getElementById('name');
+    const li = document.createElement('li');
+    li.innerText = kaka;
+    getDiv.appendChild(li);
+}
+
+const askBtn = () => {
+    const kaka = confirm('do you want to come');
+    console.log(kaka);
 }
