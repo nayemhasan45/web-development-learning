@@ -3,15 +3,16 @@ const student = {
     id: 221155192,
     section: 'x',
     department: 'cse',
-    course: {
-        course1: 'eee',
-        course2: 'cse',
-        course3: 'ged'
-    }
+    course: [{ name: 'eee' }, { name: 'cse' }, { name: 'ged' }]
 }
 
 const studentJSON = JSON.stringify(student);
-console.log(student);
-console.log(studentJSON);
+// console.log(student);
+// console.log(studentJSON);
 const studentParse = JSON.parse(studentJSON);
-console.log(studentParse);
+// console.log(studentParse);
+
+const newStudent = { ...student.course };
+console.log(newStudent);
+// const remaining = newStudent.filter(course => course.name !== 'ged');
+// console.log(remaining);
